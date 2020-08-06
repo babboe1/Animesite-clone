@@ -27,7 +27,13 @@
         border: 1px solid yellow;
         margin: auto;
     }
-    
+    #logo{
+        width: 100%;
+        height: 100%;
+        max-width: 400px;
+        max-height: 140px;
+        border: 1px solid green;
+    }
     #parent{
         width: 100%;
         display: flex;
