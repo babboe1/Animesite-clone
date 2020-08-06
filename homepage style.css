@@ -6,4 +6,7 @@
     * {
         box-sizing: border-box;
     }
-    
+    #grand{
+        width: 100%;
+        display: flex;
+    }
