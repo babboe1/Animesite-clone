@@ -9,4 +9,8 @@
     #grand{
         width: 100%;
         display: flex;
+        border: 1px solid red;
+    }
+    #topnav{
+        border: 1px solid blue;
     }
