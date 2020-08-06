@@ -34,6 +34,13 @@
         max-height: 140px;
         border: 1px solid green;
     }
+    #from{
+        width: 100%;
+        height: 100%;
+        max-width: 450px;
+        max-height: 140px;
+        border: 1px solid red;
+    }
     #parent{
         width: 100%;
         display: flex;
