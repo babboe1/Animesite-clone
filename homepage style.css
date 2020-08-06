@@ -27,6 +27,7 @@
         border: 1px solid yellow;
         margin: auto;
     }
+    
     #parent{
         width: 100%;
         display: flex;
