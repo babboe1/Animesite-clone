@@ -78,13 +78,29 @@
         padding: 5px 20px ;
         border: 1px solid tomato;
         border-radius: 5px 5px 0 0;
-        font: 13px bold Arial, Helvetica, sans-serif;;
+        font: 13px bold Arial, Helvetica, sans-serif;
         margin-right: 2px;
     }
     .list a{
         text-decoration: none;
         color: black;
     }
+    #downline{
+        border: 1px solid purple;
+        background-color: rgb(58, 126, 3);
+        color: rgb(240, 236, 236);
+    }
+    #reg{
+        border: 1px solid peru;
+        width: 100%;
+        max-width: 970px;
+        margin: auto;
+        font: 12px bold Arial, Helvetica, sans-serif; 
+        padding: 5px 20px;       
+    }
+    #downline a{
+        text-decoration: none;
+        color:white;
     #parent{
         width: 100%;
         display: flex;
