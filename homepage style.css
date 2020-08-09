@@ -120,4 +120,19 @@
         width: 100%;
         display: flex;
         border: 1px solid green;
+        justify-content: center;
+    }
+    .side{
+        width: 100%;
+        max-width: 250px;
+        border: 1px solid blue;
+        margin: 0 25px;
+    }
+    #middle{
+        width: 100%;
+        max-width: 970px;
+        border: 1px solid white;
+    }
+    #content{
+        
     }
