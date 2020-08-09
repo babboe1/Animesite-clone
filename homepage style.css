@@ -120,19 +120,28 @@
         width: 100%;
         display: flex;
         border: 1px solid green;
-        justify-content: center;
+        justify-content: space-between
     }
     .side{
         width: 100%;
-        max-width: 250px;
+        max-width: 300px;
         border: 1px solid blue;
-        margin: 0 25px;
     }
     #middle{
+        display: flex;
         width: 100%;
         max-width: 970px;
         border: 1px solid white;
+        justify-content: space-between;
     }
     #content{
-        
+        width: 100%;
+        max-width: 730px;
+        border: 1px solid yellow;
+        height: 500px;
+    }
+    #sidebar{
+        width: 100%;
+        max-width: 215px;  
+        border: 1px solid red; 
     }
