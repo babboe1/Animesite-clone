@@ -93,7 +93,10 @@
         font: 13px bold Arial, Helvetica, sans-serif;
         margin-right: 2px;
         margin-top: 25px;
-        background-color:rgb(58, 126, 3) ;
+        background: rgb(91,188,11);
+        background: linear-gradient(180deg, rgba(91,188,11,1) 0%,
+        rgba(90,191,8,1) 10%, rgba(152,150,150,1) 41%,
+        rgba(58,126,3,1) 74%);  
         padding: 5px 35px;
     }
     #downline{
@@ -112,6 +115,7 @@
     #downline a{
         text-decoration: none;
         color:white;
+    }
     #parent{
         width: 100%;
         display: flex;
