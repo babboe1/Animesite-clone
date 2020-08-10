@@ -135,7 +135,28 @@
         max-width: 730px;
         border: 1px solid yellow;
     }
-
+    #preview{
+        width: 100%;
+        max-width: 730px;
+        display: flex;
+        border: 1px solid red;
+        background: rgb(104,105,103);
+        background: linear-gradient(180deg, rgba(104,105,103,1) 10%,
+        rgba(74,72,72,1) 21%, rgba(22,22,16,1) 50%); 
+    }
+    #imgpreview{
+        width: 100%;
+        max-width: 155px;
+    }
+    #mainpreview{
+        width: 100%;
+        max-width: 540px;
+        display: flex;
+        flex-direction: column;        
+    }
+    #topview{
+        
+    }
     #sidebar{
         display: flex;
         flex-direction: column;
