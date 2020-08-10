@@ -155,7 +155,19 @@
         flex-direction: column;        
     }
     #topview{
-        
+        width: 100%;
+        max-width: 540px;
+        margin: 0 30px;
+        border: 1px solid blue;
+    }
+    h3 a{
+        text-decoration: none;
+        font:normal 27px "Tahoma" , Arial, Helvetica, sans-serif;
+        color: #b3d107;
+    }
+    #topview p{
+        font:normal 12px "Tahoma" , Arial, Helvetica, sans-serif;  
+        color: #666363 ;     
     }
     #sidebar{
         display: flex;
