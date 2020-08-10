@@ -157,6 +157,7 @@
     #topview{
         width: 100%;
         max-width: 540px;
+        height: 150px;
         margin: 0 30px;
         border: 1px solid blue;
     }
@@ -167,7 +168,13 @@
     }
     #topview p{
         font:normal 12px "Tahoma" , Arial, Helvetica, sans-serif;  
-        color: #666363 ;     
+        color: #666363 ; 
+        margin: 20px 0  ;    
+    }   
+    p a{
+        text-decoration: none;
+        font:normal 12px "Tahoma" , Arial, Helvetica, sans-serif;
+        color: #b3d107;    
     }
     #sidebar{
         display: flex;
