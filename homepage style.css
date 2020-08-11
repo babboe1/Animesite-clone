@@ -159,7 +159,7 @@
         max-width: 540px;
         height: 150px;
         margin: 0 30px;
-        border: 1px solid blue;
+        /* border: 1px solid blue; */
     }
     h3 a{
         text-decoration: none;
@@ -169,12 +169,29 @@
     #topview p{
         font:normal 12px "Tahoma" , Arial, Helvetica, sans-serif;  
         color: #666363 ; 
-        margin: 20px 0  ;    
+        margin: 20px 0  ;  
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;  
+        overflow: hidden;  
     }   
     p a{
         text-decoration: none;
         font:normal 12px "Tahoma" , Arial, Helvetica, sans-serif;
-        color: #b3d107;    
+        color: #b3d107;   
+    }
+    #downview{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 15px;
+        margin-right: 20px;
+    }
+    button{
+        padding: 5px 10px;
+        border-radius: 10px;
+        background-color:rgb(58, 126, 3);
+        color: white;
+        font:bold 12px "Tahoma" , Arial, Helvetica, sans-serif ;
     }
     #sidebar{
         display: flex;
