@@ -200,7 +200,17 @@
         flex-direction: column;
         border: 1px solid purple;        
     }
-    
+    #topdate{
+        display: flex;
+        justify-content: space-between;
+        background: rgb(162,230,57);
+        background: linear-gradient(180deg, rgba(162,230,57,1) 25%,
+        rgba(98,157,7,1) 55%); 
+        font: 17px/23px "Tahoma" , Arial, Helvetica, sans-serif ;
+        color: rgb(221, 221, 221);
+        line-height: 26px;
+        padding: 0 10px;
+    }
     #sidebar{
         display: flex;
         flex-direction: column;
