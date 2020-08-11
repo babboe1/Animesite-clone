@@ -193,6 +193,14 @@
         color: white;
         font:bold 12px "Tahoma" , Arial, Helvetica, sans-serif ;
     }
+    #update{
+        width: 100%;
+        max-width: 730px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid purple;        
+    }
+    
     #sidebar{
         display: flex;
         flex-direction: column;
