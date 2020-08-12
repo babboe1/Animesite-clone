@@ -212,6 +212,15 @@
         line-height: 26px;
         padding: 0 10px;
     }
+    #downdate{
+        display: flex;
+    }
+    .items{
+        width: calc(100%/5);
+        margin: 0 10px;
+
+
+    }
     #sidebar{
         display: flex;
         flex-direction: column;
