@@ -113,6 +113,7 @@
         display: flex;
         border: 1px solid green;
         justify-content: space-between;
+        margin: 10px 0;
     }
     .side{
         width: 100%;
@@ -215,15 +216,18 @@
     }
     #downdate{
         display: flex;
+        margin: 0 15px;
     }
     .items{
         width: calc(100%/5);
-        margin: 0 10px;
+        margin: 0 5px;
+        text-align: center;
     }
     .itemimg{
         width: 100%;
+        max-width: 132px;
         height: 152px;
-        margin: 30px 0;
+        margin: 20px 0;
     }
     #sidebar{
         display: flex;
