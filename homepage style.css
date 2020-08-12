@@ -187,11 +187,12 @@
         margin-right: 20px;
     }
     button{
-        padding: 5px 10px;
+        padding: 10px 15px;
         border-radius: 10px;
         background-color:rgb(58, 126, 3);
         color: white;
         font:bold 12px "Tahoma" , Arial, Helvetica, sans-serif ;
+        border: none;
     }
     #update{
         width: 100%;
