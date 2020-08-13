@@ -226,6 +226,26 @@
         height: 152px;
         margin: 20px 0;
     }
+    #main{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .child{
+        width: 100px;
+        display: flex;
+    }
+    .child1{
+        width: 100px;
+        display: flex;
+        background-color: #161616; 
+    } 
+    .childimg{
+        max-width: 84px;
+        max-height: 104px;
+    }
+
+    
     #sidebar{
         display: flex;
         flex-direction: column;
