@@ -155,7 +155,7 @@
     #topview{
         width: 100%;
         max-width: 540px;
-        height: 150px;
+        /* height: 150px; */
         margin: 0 30px;
         /* border: 1px solid blue; */
     }
@@ -167,7 +167,7 @@
     /* #topview */
     p{
         font:normal 12px "Tahoma" , Arial, Helvetica, sans-serif;  
-        color: #666363 ; 
+        color: #666363 ;                        
         margin: 20px 0  ;  
         display: -webkit-box;
         -webkit-line-clamp: 4;
@@ -245,7 +245,7 @@
         max-height: 104px;
     }
 
-    
+
     #sidebar{
         display: flex;
         flex-direction: column;
