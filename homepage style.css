@@ -79,7 +79,7 @@
         text-decoration: none;
         color: black;
     }
-    #home{
+    .home{
         border-radius: 5px 5px 0 0;
         font: 13px bold Arial, Helvetica, sans-serif;
         margin-right: 2px;
@@ -110,9 +110,11 @@
     #parent{
         width: 100%;
         display: flex;
-        /* border: 1px solid green; */
+        background-color:#0f0f0f;
         justify-content: space-between;
         margin: 10px 0;
+        border: .1px solid rgb(54, 54, 54);
+
     }
     .side{
         width: 100%;
@@ -122,7 +124,6 @@
         display: flex;
         width: 100%;
         max-width: 970px;
-        /* border: 1px solid white; */
         justify-content: space-between;
     }
     #content{
@@ -130,13 +131,13 @@
         flex-direction: column;
         width: 100%;
         max-width: 730px;
-        /* border: 1px solid yellow; */
+        border: .1px solid rgb(54, 54, 54);
     }
     #preview{
         width: 100%;
         max-width: 730px;
         display: flex;
-        /* border: 1px solid red; */
+        border: .1px solid rgb(54, 54, 54);
         background: rgb(104,105,103);
         background: linear-gradient(180deg, rgba(104,105,103,1) 10%,
         rgba(74,72,72,1) 21%, rgba(22,22,16,1) 50%); 
@@ -174,10 +175,6 @@
         font:normal 12px "Tahoma" , Arial, Helvetica, sans-serif;  
         color: #666363 ;                        
         margin: 20px 0  ;  
-        display: -webkit-box;
-        -webkit-line-clamp: 4;
-        -webkit-box-orient: vertical;  
-        overflow: hidden;  
     }   
     p a{
         text-decoration: none;
@@ -201,11 +198,12 @@
     #update{
         width: 100%;
         max-width: 730px;
+        margin-top: 10px;
         display: flex;
         flex-direction: column;
-        /* border: 1px solid purple;         */
+        border: .1px solid rgb(54, 54, 54);
     }
-    #topdate{
+    .topdate{
         display: flex;
         justify-content: space-between;
         background: rgb(162,230,57);
@@ -266,7 +264,20 @@
         flex-direction: column;
         width: 100%;
         max-width: 225px;  
-        border: 1px solid red; 
+        /* border: 1px solid red;  */
+    }
+    #announcement{
+        width: 100%;
+        padding-bottom: 20px;
+        background-color:black;
+        border: .1px solid rgb(54, 54, 54);
+        margin-bottom: 15px;
+    }
+    #ongoing, #latest {
+        width: 100%;
+        background-color:black;
+        border: .1px solid rgb(54, 54, 54);
+        margin-bottom: 15px;
     }
     #botomnav{
         width: 100%;
@@ -280,3 +291,4 @@
         font: normal 12px "Tahoma" , Arial, Helvetica, sans-serif;
         padding: 5px 10px;
     }
+
