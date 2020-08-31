@@ -78,6 +78,10 @@
         max-width: 315px;
         justify-content: space-between;
     }
+    #src a{
+        padding: 0;
+        font-size: 15px;
+    }
 
     #down{
         width: 100%;
