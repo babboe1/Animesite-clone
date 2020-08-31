@@ -54,6 +54,9 @@
         max-width: 200px;
         max-height: 200px;
     }
+    #middleform{
+        padding: 15px 0;
+    }
 
     #down{
         width: 100%;
