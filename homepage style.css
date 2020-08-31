@@ -72,6 +72,12 @@
         padding: 0px 10px 4px;
         border-radius: 5px;
     }
+    #bottomform{
+        display: flex;
+        width: 100%;
+        max-width: 315px;
+        justify-content: space-between;
+    }
 
     #down{
         width: 100%;
