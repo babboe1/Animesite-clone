@@ -36,11 +36,14 @@
         margin-top: 10px;
     }
     #form{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
         width: 100%;
         height: 100%;
         max-width: 450px;
-        border: 1px solid red;
-        
+        padding-right: 15px;
+        margin-top: 10px;
     }
     #down{
         width: 100%;
@@ -173,9 +176,14 @@
         margin-top: 15px;
         margin-right: 20px;
     }
+    #dropdown{
+        background-color: #161613;
+        color: #fff;
+        line-height: 10px;
+    }
     button{
-        padding: 10px 15px;
-        border-radius: 10px;
+        padding: 5px 15px;
+        border-radius: 7px;
         background-color:rgb(58, 126, 3);
         color: white;
         font:bold 12px "Tahoma" , Arial, Helvetica, sans-serif ;
