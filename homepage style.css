@@ -57,6 +57,11 @@
     #middleform{
         padding: 15px 0;
     }
+    #search{
+        border: .1px solid rgb(54, 54, 54);
+        background-color: #161613;
+        line-height:25px
+    }
 
     #down{
         width: 100%;
