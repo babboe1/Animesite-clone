@@ -1,5 +1,5 @@
 # Anime Website clone
-This is a client-side website clone of a popularly known anime(Japanese Movie)website
+This is a client-side website clone of a popularly known anime(Japanese Movie)website.
 
 ## Table of contents
 
